@@ -1,0 +1,21 @@
+Distribución de la página (maquetación)
+
+Formato CSS
+
+Formato imágenes
+
+Mínimo 3 videos
+
+Carrusel de imágenes
+
+
+Menú de opciones
+
+
+COLORES
+
+#00BFFF
+#FF00FF
+
+00ffdc
+#008B8B

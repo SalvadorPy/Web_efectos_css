@@ -1,0 +1,219 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+html{
+    background: rgb(0, 0, 0);
+
+
+}
+#misTitulos{
+    color: rgb(3, 173, 185);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+#misTitulos2{
+    color: rgb(3, 173, 185);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+#misTitulos3{
+    color: rgb(3, 173, 185);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+#misTitulos4{
+    color: rgb(3, 173, 185);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+#misTitulos5{
+    color: rgb(3, 173, 185);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+#frases{
+    color: rgb(3, 173, 185);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+
+}
+
+#miCabezera{
+    font-size: 25px;
+    
+    color: rgb(0, 0, 0);
+}
+
+section img:hover{
+    cursor: pointer;
+    width: 700px;
+    opacity: 0.9;
+    fill: contrast(120%);
+    
+}
+
+
+
+#banner{
+    height:250 ;
+    width: 500px;
+    background: rgb(17, 139, 54);
+    float: right;
+
+
+}
+#logo{
+   
+    height: 180px;
+    width: 1329px;
+    background: rgba(0, 0, 0, 0.132);
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    border: 7px rgb(0, 170, 182) Ridge ;
+    
+}
+
+
+
+
+#genral-contenido{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+nav{
+    height: 40px;
+    background: rgb(22, 40, 41);
+    font-size: 30px;
+    opacity: 0.9871;
+
+}
+nav ul{
+    list-style: none;
+}
+nav a{
+    color:rgb(3, 173, 185);
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+nav ul li{
+    float:  left;
+}
+
+
+main{
+    height: 9100px;
+    width: 1349px;
+    
+    background-image: linear-gradient(rgba(5, 7, 12, 0.55), rgba(5, 7, 12, 0.55)), 
+    url("https://fotografias.lasexta.com/clipping/cmsimages02/2020/07/06/4F7E5919-8893-4A6D-A7E8-6B03D10F955F/97.jpg?crop=1280,720,x0,y42&width=1600&height=900&optimize=high&format=webply");
+   
+}
+
+#lado_izquierdo{
+    height: 9100px;
+    width: 140px;
+    background:  rgb(0, 0, 0);
+    float: left;
+    
+    
+}
+#lado_derecho{
+    height: 9100px;
+    width: 259px;
+    background:  rgb(0, 0, 0);
+    float: right;
+    
+}
+article{
+    width: 950px;
+    height: 9000px;
+    float: left;
+}
+#center{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: antiquewhite;
+    
+    
+    
+}
+
+
+footer{
+    background:rgb(0, 112, 107);
+    height: 120px;
+    width:1579px ;
+    color: aliceblue;
+}
+
+#datos{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#textoDeInformacion{
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(253, 247, 247, 0.795);
+    text-align :justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+#tituloVideos{
+    color: rgba(202, 196, 196, 0.87);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+#imagenesD{
+    float:right;
+    width: 340px;
+    height: 290px;
+    padding: 10px;
+
+}
+#imagenesI{
+    float:left;
+    width: 340px;
+    height: 290px;
+    padding: 10px;
+
+}
+#textoPie{
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+}
